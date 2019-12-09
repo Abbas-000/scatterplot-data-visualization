@@ -1,0 +1,53 @@
+main {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#title {
+  text-align: center;
+  font-size: 2.3em;
+  font-family: monospace;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  background-color: #f7f0e2;
+}
+
+.dot {
+  stroke-width: 1px;
+  stroke: #000;
+  fill-opacity: 0.5;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: steelblue;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#tealBox, #orangeBox {
+  width: 15px;
+  height: 15px;
+  stroke-width: 1px;
+  stroke: #000;
+  fill-opacity: 0.5;
+}
+
+#tealBox {
+  fill: teal;
+}
+
+#orangeBox {
+  fill: orange;
+}
+
+#legend {
+  font-family: monospace;
+  word-spacing: -1px;
+}
